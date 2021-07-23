@@ -1,0 +1,1080 @@
+
+<style type="text/css">
+@import url('https://fonts.googleapis.com/css?family=Heebo:100,300,400,500,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+@import url('https://fonts.googleapis.com/css?family=Karla:300,300i,400,400i,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Spectral:300,300i,400,400i,600,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,400i,500,500i,700,700i,900');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,900');
+
+body, a, a:hover {cursor: url(http://www.rw-designer.com/cursor-extern.php?id=84490), auto;}
+
+body{
+background: #0d0808;
+}
+::-webkit-scrollbar-thumb:vertical{
+width: 0px;
+background-color: transparent;
+}
+::-webkit-scrollbar {
+width: 0px;
+background-color: transparent;
+}
+::selection {
+background: transparent;
+color: rgba(366,366,366,.5);
+}
+::-moz-selection {
+background: transparent;
+color: rgba(366,366,366,.5);
+}
+
+/*-- main --*/
+
+.mainimage{
+position: fixed; margin: auto;
+bottom: 20; left: -500; right: 0;
+height: 760px; width: 600px;
+background-size: contain;
+background-repeat: no-repeat;
+background-position: bottom;
+filter: drop-shadow(-4px -2px 0px #a38157);
+background-image: url('https://i.imgur.com/ayk19S8.jpeg');
+}
+.maintitle{
+position: fixed; margin: auto;
+bottom: 100; left: 0; right: -250px;
+height: 450px; width: 100px;
+font-family: playfair display;
+line-height: 100px;
+font-size: 50px;
+font-weight: 100;
+text-transform: uppercase;
+text-align: left;
+color: #0d0808;
+}
+.maintitle span{
+display: inline-block;
+height: 100px; width: 50px;
+text-align: center;
+}
+.mainborder{
+position: fixed; margin: auto;
+bottom: 150; left: 0; right: -350px;
+height: 400px; width: 1px;
+background: linear-gradient(to bottom,#5c4639,#0d0808);
+}
+.box{
+position: fixed; margin: auto;
+bottom: 100; left: 0; right: -400px;
+height: 500px; width: 420px;
+background: #a38157;
+}
+.statbox{
+position: fixed; margin: auto;
+bottom: 150px; left: 0; right: -570px;
+height: 380px; width: 170px;
+overflow: auto;
+font-family: karla;
+font-size: 10px;
+font-weight: 900;
+text-transform: uppercase;
+text-align: center;
+line-height: 12px;
+color: #1e1915;
+}
+.statbox span.one{
+display: block;
+height: 12px; width: 100%;
+line-height: 12px;
+margin-bottom: 5px;
+margin-top: 5px;
+padding-bottom: 5px;
+border-bottom: 1px solid #5c4639;
+text-align: center;
+text-transform: uppercase;
+font-family: spectral;
+font-weight: 800;
+letter-spacing: 0px;
+font-size: 10px;
+color: #090405;
+}
+.nav{
+position: fixed; margin: auto;
+bottom: 150; left: 0; right: -900px;
+height: 350px; width: 25px;
+}
+.nav a{
+display: block;
+margin-top: 10px;
+height: 50px; width: 50px;
+border-bottom: 1px solid #a38157;
+line-height: 25px;
+font-family: spectral;
+font-size: 12px;
+font-weight: 900;
+text-align: center;
+text-decoration: none;
+color: #a38157;
+transition: .8s linear;
+}
+.nav a:hover{
+color: #fff;
+transition: .8s linear;
+}
+.nav a span{
+float: left;
+display: block;
+margin-right: -200px;
+margin-top: 0px;
+height: 20px; width: 125px;
+background: #a38157;
+border-radius: 2px;
+line-height: 20px;
+text-align: center;
+font-family: karla;
+font-size: 8px;
+text-transform: uppercase;
+text-decoration: none;
+font-weight: 600;
+color: #090405;
+letter-spacing: 0px;
+opacity: 0; visibility: hidden;
+transition: .6s linear;
+}
+.nav a:hover span{
+margin-left: 70px;
+opacity: 1; visibility: visible;
+transition: .6s linear;
+}
+.tab{
+position: fixed; margin: auto;
+top: 0; left: 0;
+height: 100%; width: 100%;
+background: #0d0808;
+opacity: 0;
+visibility: hidden;
+transition: .8s linear;
+}
+.tab:target{
+opacity: 1;
+visibility: visible;
+transition: .8s linear;
+}
+/*-- history --*/
+
+.historyimage{
+position: fixed; margin: auto;
+top: 0; left: 0; right: 0; bottom: 0;
+height: 950px; width: 1100px;
+background-image: url('https://i.imgur.com/EvkbTTe.jpg');
+background-repeat: no-repeat;
+//background-position: -144px -100px;
+filter: blur(0px);
+transition: 15s linear;
+}
+.historyimage:hover{
+background-position: -250px -1050px;
+filter: blur(0px);
+transition: 15s linear;
+}
+
+.historyimagebull{
+position: fixed; margin: auto;
+top: 0; left: 0; right: 0; bottom: 0;
+height: 950px; width: 1100px;
+background-image: url('https://i.imgur.com/jkEJQQt.jpg');
+background-repeat: no-repeat;
+//background-position: -144px -100px;
+filter: blur(0px);
+transition: 15s linear;
+}
+.historyimagebull:hover{
+background-position: -144px -1050px;
+filter: blur(0px);
+transition: 15s linear;
+}
+
+.historytitle{
+position: fixed; margin: auto;
+top: -800; left: 0; right: 0; bottom: 0;
+height: 70px; width: 300px;
+line-height: 60px;
+font-size: 60px;
+font-family: playfair display;
+font-weight: 100;
+color: #fff;
+text-align: center;
+text-transform: uppercase;
+letter-spacing: 9px;
+border-bottom: 2px solid #fff;
+} 
+.historytxt{
+position: fixed; margin: auto;
+top: 0; left:0; right: 0; bottom: 0;
+height: 600px; width: 850px;
+font-family: spectral;
+font-weight: 400;
+font-size: 12px;
+text-align: justify;
+line-height: 15px;
+text-transform: uppercase;
+color: #fff;
+overflow: auto;
+}
+.historytxtbull{
+position: fixed; margin: auto;
+top: 200; left:0; right: 0; bottom: 0;
+height: 600px; width: 850px;
+font-family: spectral;
+font-weight: 400;
+font-size: 12px;
+text-align: justify;
+line-height: 15px;
+text-transform: uppercase;
+color: #fff;
+overflow: auto;
+}
+.historytxt p::first-letter{
+display: inline-block;
+float: left;
+margin-right: 5px;
+margin-top: 5px;
+padding: 10px;
+font-size: 25px;
+font-weight: 900;
+background: linear-gradient(to bottom,transparent,rgba(366,366,366,.5));
+color: #fff;
+line-height: 25px;
+text-align: center;
+}
+.navh{
+position: fixed; margin: auto;
+top: 0; left: 0; right: 0; bottom: -850px;
+height: 15px; width: 500px;
+text-align: center;
+}
+.navh a{
+display: inline-block;
+height: 25px; width: 50px;
+border-bottom: 1px solid #fff;
+line-height: 25px;
+font-family: spectral;
+font-size: 13px;
+color: #fff;
+text-align: center;
+text-decoration: none;
+margin-right: 10px;
+transition: .8s linear;
+}
+.navh a span{
+display: block;
+position: relative;
+margin-top: 15px;
+margin-left: -22px;
+padding: 5px;
+font-size: 8px;
+font-family: spectral;
+text-transform: lowercase;
+text-align: center;
+letter-spacing: 1px;
+text-shadow: none;
+font-weight: 900;
+height: 10px; width: 100px;
+line-height: 10px;
+border-radius: 1px;
+background: #fff;
+color: #8833c3;
+opacity: 0; visibility: hidden;
+transition: .8s linear;
+}
+.navh a:hover span{
+opacity: 1; visibility: visible;
+transition: .8s linear;
+}
+.navh a span:after{
+content: '';
+display: block;
+position: relative;
+margin-top: -24px;
+margin-left: 45%;
+height: 10px; width: 10px;
+clip-path: polygon(50% 0, 0 100%, 100% 100%);
+background: #fff;
+}
+/*-- headcanons --*/
+.hhconbg{
+position: fixed; margin: auto;
+top: 0; left: 0; right: 0; bottom: 0;
+height: 340px; width: 540px;
+background: linear-gradient(to bottom,#565656,#1f2b39);
+}
+.hhcon{
+position: fixed; margin: auto;
+top: 0; left: 0; right: 0; bottom: 0;
+height: 300px; width: 500px;
+overflow-y: auto;
+overflow-x: hidden;
+}
+.hhimage1{
+float: left;
+display: block;
+position: sticky;
+top: 0; left: 0;
+height: 300px; width: 500px;
+background-image: url('###2');
+background-repeat: no-repeat;
+background-position: center;
+opacity: .8;
+}
+.hhimage2{
+float: left;
+display: block;
+position: sticky;
+top: 0; left: 0;
+height: 300px; width: 500px;
+background-image: url('https://i.imgur.com/1AUqWGj.png');
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.abimage2{
+position: fixed; margin: auto;
+top: 0; left: 0; right: 0; bottom: 0;
+height: 750px; width: 1200px;
+background-image: url('https://i.imgur.com/Hc2gCKZ.png');
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.hhbox1{
+float: left;
+display: block;
+position: sticky;
+margin-top: -20px;
+top: 150px; left: 0;
+height: 150px; width: 500px;
+background: rgba(30, 42, 56, .2);
+z-index: 2;
+transition: .6s linear;
+}
+.hhcon:hover .hhbox1{
+background:rgba(30, 42, 56, 1);
+transition: .6s linear;
+}
+.hhscroll{
+float: left;
+display: block;
+margin-top: 5px;
+height: 10px; width: 500px;
+text-align: center;
+font-family: karla;
+font-weight: 400;
+font-size: 10px;
+line-height: 10px;
+color: #fff;
+text-transform: uppercase;
+letter-spacing: 2px;
+opacity: 1;
+transition: .6s linear;
+}
+.hhbox1:hover .hhscroll{
+opacity: 0; transition: .6s linear;
+}
+.hhbox2{
+float: left;
+display: block;
+margin-top: 10px;
+margin-left: 10px;
+height: 100px; width: 480px;
+overflow: auto;
+line-height: 10px;
+font-family: karla;
+font-size: 10px;
+text-transform: uppercase;
+font-weight: 400;
+color: #fff;
+text-align: justify;
+}
+.hhbox2 span{
+padding: 2px;
+display: inline-block;
+margin: 2px;
+float: left;
+font-weight: 500;
+font-family: heebo;
+font-size: 8px;
+color: #dadadb;
+border-bottom: 1px solid #fff;
+}
+.hhtitle{
+position: sticky;
+display: block;
+top: 100px; left: 50px;
+float: left;
+margin-top: -100px;
+height: 75px; width: 400px;
+line-height: 75px;
+font-size: 50px;
+text-align: center;
+font-family: oswald;
+font-weight: 600;
+text-transform: uppercase;
+letter-spacing: 3px;
+color: #dadadb;
+text-shadow: 1px 1px 0px #1f2b39, 1px -1px 0px #1f2b39, -1px -1px 0px #1f2b39, -1px 1px 0px #1f2b39;
+z-index: 3;
+}
+.navhh{
+position: fixed; margin: auto;
+top: 0; left: 0; right: 0; bottom: -450px;
+height: 25px; width: 500px;
+text-align: center;
+}
+.navhh a{
+display: inline-block;
+height: 25px; width: 50px;
+border-bottom: 1px solid #fff;
+line-height: 25px;
+font-family: spectral;
+font-size: 13px;
+color: #fff;
+text-align: center;
+text-decoration: none;
+margin-right: 10px;
+transition: .8s linear;
+}
+.navhh a:hover{
+color: #565656;
+transition: .8s linear;
+}
+
+
+/*-- abilities and inventory --*/
+
+.abimage{
+position: fixed; margin: auto;
+top: 0; left: 0; right: 0; bottom: 0;
+height: 750px; width: 1200px;
+background-image: url('https://i.imgur.com/q2EkRH9.jpg');
+background-repeat: no-repeat;
+background-position: center;
+}
+.abititle{
+position: fixed; margin: auto;
+top: -600px; left: -500px; right: 0; bottom: 0;
+height: 50px; width: 550px;
+line-height: 50px;
+text-align: left;
+border-bottom: 2px solid #fff;
+color: #fff;
+font-family: playfair display;
+font-size: 50px;
+letter-spacing: 2px;
+font-weight: 600;
+}
+.abilities{
+position: fixed; margin: auto;
+top: 0; left: -700px; right: 0; bottom: 100;
+height: 425px; width: 350px;
+font-family: spectral;
+font-size: 12px;
+line-height: 15px;
+color: #fff;
+font-weight: 800;
+overflow: auto;
+}
+.abicon{
+height: 25px; width: 150px;
+float: left;
+margin: 5px;
+display: inline-block;
+}
+.abi-icon{
+height: 23px; width: 23px;
+margin-top: 0px;
+margin-left: 0px;
+background-image: url('/');
+background-repeat: no-repeat;
+background-position: center;
+float: left;
+margin-right: 10px;
+border: 1px solid #fff;
+}
+.abiname{
+display: inline-block;
+float: left;
+height: 25px; width: 115px;
+text-align: center;
+border-bottom: 1px solid #fff;
+font-family: spectral;
+font-size: 12px;
+line-height: 25px;
+color: #fff;
+font-weight: 400;
+text-align: center;
+text-transform: lowercase;
+letter-spacing: 0px;
+transition: .5s linear;
+}
+.abicon:hover .abiname{
+color: #e9bba5;
+transition: .5s linear;
+}
+.abidesc{
+position: fixed; margin: auto;
+top: 0; left: -100px; right: 0; bottom: -125;
+height: 400px; width: 150px;
+font-family: spectral;
+font-size: 10px;
+font-weight: 400;
+line-height: 15px;
+text-align: justify;
+text-transform: uppercase;
+color: #fff;
+border-left: 1px solid #fff;
+padding-left: 10px;
+overflow: hidden;
+opacity: 0; visibility: hidden;
+transition: .5s linear;
+}
+.abicon:hover .abidesc{
+opacity: 1; visibility: visible;
+transition: .5s linear;
+}
+.abimini{
+float: left;
+display: block;
+height: 25px; width: 100%; 
+margin-top: 10px;
+margin-bottom: 10px;
+line-height: 25px;
+font-family: spectral;
+font-size: 15px;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 1px;
+text-align: left;
+border-bottom: 1px solid #fff;
+}
+.navabi{
+position: fixed; margin: auto;
+top: 0; left: -650; right: 0; bottom: -600px;
+height: 25px; width: 500px;
+text-align: left;
+}
+.navabi a{
+display: inline-block;
+height: 20px; width: 50px;
+border-bottom: 1px solid #fff;
+line-height: 20px;
+font-family: spectral;
+font-size: 10px;
+color: #fff;
+text-align: center;
+text-decoration: none;
+margin-right: 10px;
+transition: .8s linear;
+}
+.navabi a:hover{
+color: #e9bba5;
+transition: .8s linear;
+}
+
+/*--- friends ---*/
+
+.friendimage{
+position: fixed; margin: auto;
+top: 0; left: -400; right: 0; bottom: -50;
+height: 513px; width: 482px;
+background-image: url('###4');
+background-repeat: no-repeat;
+background-position: center;
+}
+.friendbox{
+position: fixed; margin: auto;
+top: 0; left: 0; right: -400px; bottom: -150;
+height: 300px; width: 400px;
+padding-right: 15px;
+overflow: auto;
+}
+.friendbox::-webkit-scrollbar-thumb:vertical{
+width: 1px;
+background-color: #c3d476;
+}
+.friendbox::-webkit-scrollbar {
+width: 1px;
+background-color: transparent;
+}
+.friendtitle{
+position: fixed; margin: auto;
+top: -225; left: 0; right: -400px; bottom: 0;
+height: 50px; width: 400px;
+border-bottom: 1px solid #c3d476;
+font-family: playfair display;
+font-weight: 900;
+font-size: 40px;
+color: #c3d476;
+text-align: left;
+letter-spacing: 3px;
+}
+.friendcon{
+float: left;
+display: block;
+margin-top: 10px;
+height: 50px; width: 400px;
+overflow: hidden;
+}
+.fline{
+float: left;
+display: inline-block;
+margin-top: 23px;
+height: 1px; width: 150px;
+background: #c3d476;
+}
+.ficon{
+float: left;
+display: inline-block;
+height: 48px; width: 48px;
+border: 1px solid #c3d476;
+border-radius: 2px;
+background-image: url('/');
+background-repeat: no-repeat;
+background-position: center;
+background-size: 48px 48px;
+margin-left: 0px;
+margin-right: 5px;
+}
+.fdesc{
+float: left;
+display: inline-block;
+height: 48px; width: 190px;
+font-family: spectral;
+font-size: 10px;
+text-transform: lowercase;
+letter-spacing: 0px;
+color: #c3d476;
+line-height: 15px;
+font-weight: 400;
+text-align: justify;
+overflow: auto;
+}
+.fdesc span{
+text-transform: uppercase;
+color: #fff;
+}
+.fdisc{
+position: fixed; margin: auto;
+top: 0; left: -200; right: 0; bottom: -150px;
+height: 350px; width: 350px;
+background:#23253e;
+border-radius: 360px;
+}
+.friendnavi{
+position: fixed; margin: auto;
+top: 0; left: 0; right: -400px; bottom: -525;
+height: 50px; width: 500px;
+border-top: 1px solid #c3d476;
+text-align: right;
+}
+.friendnavi a{
+display: inline-block;
+height: 20px; width: 50px;
+border-bottom: 1px solid #fff;
+line-height: 20px;
+font-family: spectral;
+font-size: 10px;
+color: #fff;
+text-align: center;
+text-decoration: none;
+margin-right: 10px;
+margin-top: 5px;
+transition: .8s linear;
+}
+.friendnavi a:hover{
+color: #ffe450;
+transition: .8s linear;
+}
+/*-- ooc --*/
+.oocimage{
+position: fixed; margin: auto;
+top: 0; left: 0; right: 0; bottom: 0;
+height: 400px; width: 700px;
+background-image: url('https://i.imgur.com/69eYuoR.jpg');
+background-repeat: no-repeat;
+background-position: bottom center;
+}
+.oocbox{
+position: fixed; margin: auto;
+top: -75; left: -325px; right: 0; bottom: 0;
+height: 250px; width: 300px;
+}
+.ooctitle{
+position: fixed; margin: auto;
+top: -250px; left: -325px; right: 0; bottom: 0;
+height: 45px; width: 300px;
+line-height: 45px;
+text-align: center;
+font-family: playfair display;
+font-weight: 900;
+letter-spacing: 0px;
+font-size: 25px;
+-webkit-text-fill-color: transparent;
+background: linear-gradient(transparent,transparent),url('###5');
+-webkit-background-clip: text;
+background-position: -89px -180px;
+}
+
+.oocdesc{
+position: fixed; margin: auto;
+top: -50px; left: -445px; right: 0; bottom: 0;
+height: 300px; width: 200px;
+line-height: 12.5px;
+font-family: spectral;
+font-size: 10px;
+font-weight: 600;
+text-transform: uppercase;
+text-align: center;
+overflow: auto;
+color: #e2e2e2;
+}
+.oocdesc span{
+height: 10px; width: 100%;
+display: block;
+text-align: center;
+color: #da6f79;
+}
+
+.oocdesc p {
+	color:#000;
+}
+
+.oocnavi{
+position: fixed; margin: auto;
+top: 0; left: 0px; bottom: -310px; right: -300;
+height: 25px; width: 500px;
+text-align: center;
+}
+.oocnavi a{
+display: inline-block;
+height: 20px; width: 50px;
+border-bottom: 1px solid #fff;
+line-height: 20px;
+font-family: spectral;
+font-size: 10px;
+color: #fff;
+text-align: center;
+text-decoration: none;
+margin-right: 10px;
+margin-top: 5px;
+transition: .8s linear;
+}
+.oocnavi a:hover{
+color: #ffe450;
+transition: .8s linear;
+}
+.Newting {
+position: fixed; margin: auto;
+top: 650px; left: 570px; right: 0; bottom: 0;
+height: 300px; width: 200px;
+}
+.Newting a{
+color:#fff;
+}
+.win {
+position: fixed; margin: auto;
+top: 0; left: 0; right: 0; bottom: 0;
+height: 750px; width: 1200px;
+background-image: url('https://i.imgur.com/RlAgNna.png');
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.win2 {
+position: fixed; margin: auto;
+top: 0; left: 0; right: 0; bottom: 0;
+height: 750px; width: 1200px;
+background-image: url('https://i.imgur.com/qvDXLsL.jpg');
+background-repeat: no-repeat;
+background-position: center;
+
+.abilitiesnow {
+.abilitiesnow {
+	position: fixed;
+	margin: auto;
+	top: 0;
+	left: -000px;
+	right: 0;
+	bottom: 0;
+	height: 525px;
+	width: 1200px;
+	font-family: spectral;
+	font-size: 12px;
+	line-height: 15px;
+	color: #fff;
+	font-weight: 800;
+	overflow: auto;
+}
+
+</style>
+<div class="box"></div>
+<div class="mainimage"></div>
+<div class="maintitle">
+<span>F</span><br><span>A</span><br>
+<span>W</span><br><span>N</span> <br>
+<audio controls="" style="z-index:3;position:fixed;bottom:10.5%;left:51%;width:20.4%;">
+<source src="https://download.mp3-rr.buzz/d/Lisa-Ekdahl-Vem-Vet.mp3" type="audio/mpeg">
+</audio>
+</div>
+<div class="mainborder"></div>
+
+<div class="statbox">
+
+
+Name
+<span class="one">
+Karrina Fawn
+</span>
+
+Gender
+<span class="one">
+Female
+</span>
+
+Species
+<span class="one">
+Human
+</span>
+
+height
+<span class="one">
+167cm / 5 feet and 6 inches
+</span>
+
+hair color
+<span class="one">
+Dark Violet
+</span>
+
+eye color
+<span class="one">
+Green
+</span>
+
+body type
+<span class="one">
+slender
+</span>
+
+orientation
+<span class="one">
+Androsexual/Pansexual
+</span>
+
+marital status
+<span class="one">
+Single
+</span>
+
+<div class="nav">
+<a href="#01"> <img src="https://i.imgur.com/XUKXYfh.png" width="50px" height="50px"> <span>To Dream</span></a>
+<a href="#02"> <img src="https://i.imgur.com/XUKXYfh.png" width="50px" height="50px"> <span>Best skip this one</span></a>
+<a href="#03"> <img src="https://i.imgur.com/XUKXYfh.png" width="50px" height="50px"> <span>abilities&amp;inventory</span></a>
+<a href="#04"> <img src="https://i.imgur.com/XUKXYfh.png" width="50px" height="50px"> <span>friends</span></a>
+<a href="#05"> <img src="https://i.imgur.com/XUKXYfh.png" width="50px" height="50px"> <span>out of character</span></a>
+</div>
+
+
+<div class="tab" id="01">
+<div class="historyimage">
+<div class="historytitle">The Dream</div>
+<div class="historytxt">
+
+<p>I dream of you, to wake: would that I might
+Dream of you and not wake but slumber on;
+Nor find with dreams the dear companion gone,
+As, Summer ended, Summer birds take flight.
+In happy dreams I hold you full in night.
+I blush again who waking look so wan;
+Brighter than sunniest day that ever shone,
+In happy dreams your smile makes day of night…</p>
+<p>There are no restraints on people when they dream, and waking fantasies are also without limit. Anything is possible, and nothing is sacred. Dreamers can't control what occurs in their slumber, though many have tried. Their preconceived notions of self-control are useless when they sleep, and even the most restrained of them has no choice but to surrender to the chaos of dreams. </p></p>
+<p>Many believe that the fae have their origins in the dreams of mortals, that they were birthed from early desires and fears, when the world was still young. Perhaps for that reason, they are connected to the Dreaming, but not necessarily to dreams themselves. It's not uncommon for a changeling in the Dreaming to come in contact with an actual manifestation of a sleeping mortal's dream. People who are heavily stressed or feeling particularly powerful emotions can have their dreams manifest completely. Although a few very gifted fae can influence the dreams of sleeping humans... can actually control dreams and change their course... they are exceedingly rare. </p>
+However, while in the Dreaming, changelings can take what they desire from a mortal dream in the form of chimerical items. If, while passing through a dream, a changeling should happen upon an elegant cloak or sword, it takes nothing more than the slightest effort for them to reach out and retrieve the item they see. This action has absolutely no effect on the dream itself, and even extends to sentient parts of dreams, but the risks are extreme when pulling a person from a dream into the Dreaming proper. Because dreams tend to change, and the "roles" of people in dreams change too, what appears at first to be an innocent young lovely for a satyr to woo can easily become a multi-tentacled chimera with a serious attitude problem, should a pleasant dream become a nightmare.<br>
+<p> The Dreaming is alive, make no mistake about that. But the life it has is not quite like anything else in existence. The Dreaming is not sentient, nor can it ever become sentient. Instead it is a primal pool of emotions. All colors, tastes, sounds, and scents are more intense in the Mythic Realm, and so are feelings. Anger is intensified, and here it is a raging inferno, rather than a candle's flame.<br>
+<p>Sleepy, not always. Spacy at times, definitely. Karrina Fawn, mostly referred to as Fawn. Is at her peak of happiness when lost in a dream, wandering aimless out into the unknown with a smirk.</p><br>
+</div>
+
+<div class="navh">
+<a href="#00">Home. <span>Home</span></a>
+<a title="current" style="color:#414192;">01.<span>current.</span></a>
+<a href="#02">02. <span>Best skip this one</span></a>
+<a href="#03">03. <span>abilities&amp;inventory</span></a>
+<a href="#04">04. <span>friends</span></a>
+<a href="#05">05. <span>out of character</span></a>
+</div>
+</div>
+</div>
+
+
+<div class="tab" id="02">
+<div class="abimage2"></div>
+<div class="abititle">Best skip this one</div>
+<div class="abilities">
+<p>Okay okay, i know why some of you click profiles and yes I'm open to the idea.</p>
+<p>But if thats the plan, open up about it out of character first.</p>
+
+<div class="Newting"><a href="#06" title="18+">18+</a></div>
+</div>
+
+
+<div class="navabi">
+<a href="#00" title="Home">Home.</a>
+<a href="#01" title="To Dream">01.</a>
+<a title="current" style="color:#414192;">02.</a>
+<a href="#03" title="abilities&amp;inventory">03.</a>
+<a href="#04" title="friends">04.</a>
+<a href="#05" title="out of character">05.</a>
+</div>
+
+</div>
+
+<div class="tab" id="03" style="background:#2f3239;">
+<div class="abimage"></div>
+<div class="abititle">skillsets&amp;inventory</div>
+<div class="abilities">
+<p>I have a bag so big and so messy, I'm sure i can find anything.</p>
+<p>I'm also the proud owner of a stretchy mind</p>
+</div>
+
+<div class="navabi">
+<a href="#00" title="Home">Home.</a>
+<a href="#01" title="To Dream">01.</a>
+<a href="#02" title="Best skip this one">02.</a>
+<a title="current" style="color:#414192;">03.</a>
+<a href="#04" title="friends">04.</a>
+<a href="#05" title="out of character">05.</a>
+</div>
+</div>
+
+<div class="tab" id="04" style="background:#23253e;">
+<div class="friendtitle">friends&amp;others</div>
+<div class="friendbox">
+
+<a target="_blank" href="https://roleplay.chat/profile.php?user=">
+<div class="friendcon">
+<div class="fline"></div>
+<div class="ficon" style="background-image: url('-');"></div>
+<div class="fdesc">
+<span>Name</span> 
+
+</div>
+</div>
+</a>
+<a target="_blank" href="https://roleplay.chat/profile.php?user=">
+<div class="friendcon">
+<div class="fline"></div>
+<div class="ficon" style="background-image: url('-');"></div>
+<div class="fdesc">
+<span>Name</span> 
+
+</div>
+</div>
+</a>
+<a target="_blank" href="https://roleplay.chat/profile.php?user=">
+<div class="friendcon">
+<div class="fline"></div>
+<div class="ficon" style="background-image: url('-');"></div>
+<div class="fdesc">
+<span>Name</span> 
+
+</div>
+</div>
+</a>
+<a target="_blank" href="https://roleplay.chat/profile.php?user=">
+<div class="friendcon">
+<div class="fline"></div>
+<div class="ficon" style="background-image: url('-');"></div>
+<div class="fdesc">
+<span>Name</span> 
+
+</div>
+</div>
+</a>
+
+</div>
+<div class="fdisc"></div>
+<div class="friendimage"></div>
+<div class="friendnavi">
+<a href="#00" title="Home">Home.</a>
+<a href="#01" title="To Dream">01.</a>
+<a href="#02" title="Best skip this one">02.</a>
+<a href="#03" title="abilities&amp;inventory">03.</a>
+<a title="current" style="color:#414192;">04.</a>
+<a href="#05" title="out of character">05.</a>
+</div>
+
+
+</div>
+<div class="tab" id="05" style="background:#000;">
+<div class="oocimage"></div>
+<div class="oocbox"></div>
+<div class="ooctitle">out of character</div>
+<div class="oocdesc">
+<span>01</span> <p>I can be silly at times, and my spelling is not always on point.</p><br>
+<span>02</span> <p>I will do my best to awnser within reasonable time, but i am a bit of a slow typer "One of the Reasons i come here".</p><br>
+<span>03</span> <p>Hit me up if you got questions, communication is the point here, is it not?</p><br>
+
+</div>
+<div class="oocnavi">
+<a href="#00" title="Home">Home.</a>
+<a href="#01" title="history">01.</a>
+<a href="#02" title="Best skip this one">02.</a>
+<a href="#03" title="abilities&amp;inventory">03.</a>
+<a href="#04" title="friends">04.</a>
+<a title="current" style="color:#414192;">05.</a>
+</div>
+
+</div>
+
+<div class="tab" id="06" style="background:#000;">
+<div class="win"></div>
+<div class="abititle">Found the SMUT?</div>
+<div class="abilities">
+<p>Here's a little <a href="https://imgur.com/a/V8T1Ana">link</a> to some pictures you might be looking for</p>
+<div>
+<p><a href="#07">A Dream of a Bull</a></p><br>
+</div>
+</div>
+</div>
+
+<div class="tab" id="07">
+<div class="historyimagebull">
+<div class="historytitle"><a href="https://roleplay.chat/profile.php?user=Mozex+Asterion" style="Color:#fff;">A Dream of a Bull</a></div>
+<div class="historytxtbull">
+
+<p>Parting the doors to the throne room, I inch my way into the sweltering space beyond. 
+The thick smell of sodden cunt mixed with liberal quantities of masculine musk assaults my sense of smell the second I cross the threshold, the power of the spicy scent amplified ten-fold almost instantly. 
+The concentration of the thick smell of raw fuck hits me hard; a flash of a tinny metallic taste in my mouth pre-empting a prodigious amount of saliva, my mouth literally watering at the prospect.</p><br>
+<p>The squeal of the double-hinged doors parting as I enter seems to have gone unnoticed; that, or the occupants of the room just don’t care about having an audience. Or they’re expecting more company.
+When my mind cuts through the lusty haze induced by the heavy, pheromone-laden air, I’m greeted by the sight of a monstrously huge bull-stud. Even sat low on his throne as he is, almost squatting atop a solid steel throne, he still towers over me. 
+The subtle motion of muscles rippling under his flesh is the only indication that the centerpiece of the room is actually a living, breathing creature, rather than an exquisitely crafted statue capturing an idealised male physique.</p><br>
+<p>The literal giant of a bull seems cramped, almost cooped up in the room. His presence absolutely dominates the interior, his scale so massive that everything appears to be only a fraction of its usual size. 
+He looks as though he could easily reach out and touch both walls of the room at the same time without much trouble, only further magnifying the effect and leaving me subtly uncomfortable. 
+I know the room is nowhere near as small as it feels right now, but I can’t shake the feeling of being slightly claustrophobic because of it.
+A deep, bassy grunt vibrates from deep within his chest, and it’s only then, with his vocal approval of his current predicament, that I realize he isn’t in here on his own. 
+So enraptured by his appearance, I had completely neglected to notice the pair of curvaceous girls also residing within. 
+Each one wrapped around one of the chiseled adonis’ powerful legs worshipping the thick, equine cock drooping from the bull-stud’s crotch with admittedly well-deserved praise. </p><br>
+<p>They alternate between planting their pouty lips along the heavy length of cock, kissing deeply along its length from base to flared head, and lavishing the flesh before them with their wide, wet tongues. 
+As one licks toward the thickly flared head to kiss a bead of precum from the tip of the cock, the other nuzzles in against the base, lapping around the weighty root of dick to tease at the heavily laden balls below.</p><br>
+<p>The scale of the brute before me is only made more apparent by the size of his meaty hands, both easily wrapped around the back of the two girls’ heads, firmly controlling the pace of the pair along his immense cock. </p><br>
+<p>“More,” comes a deep voice, reverberating through the throne room.“</p><br>
+<p>Before I have a chance to realize which way is up, I'm down on my knees and shuffling my way between the two girls already servicing the bull-stud’s magnificent cock.</p><br>
+<p><a href="https://roleplay.chat/profile.php?user=Mozex+Asterion">Litany of the Bull Lord <img href="https://i.imgur.com/lILVTXA.png" Style="Width:20px; Height:20px;"></img></a></p>
+<p>The moment I stooped down, I realize my purpose. My Glorious Purpose. It was to serve this Bull-Lord. The three of us had the same mindset now, to lick and tend to the divine and majestic studly dick before them. In need of its warmth and aura, the musk and feel of it against our bodies' touch now</p> <br>
+<p>His Body was for Worship, His Will is our Bible, His Essence will always be our Destiny. We must satisfy him. Our pouty lips hungered for him, needed the essence churning deep in his heavily churning balls. One of the whores even began to suck and pull on the large nut almost like a whining bitch aching our Master to give it to them<p/><br>
+<p>He would not. Instead, he had leaned down to snap a collar around my neck, solidifying my purpose with him and my new sisters. Our Master graced me with such a gift, my mouth kept watering her more now. The Beast would let go of the whores' heads and rest back in his seat, enjoying this now as the large doors behind us began to close, sealing my fate. My Happy Fate<p/><br>
+</div>
+</div>
+</div>
+</div>
