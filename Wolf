@@ -1,0 +1,107 @@
+
+<style type="text/css">
+@import url('https://fonts.googleapis.com/css?family=Heebo:100,300,400,500,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+@import url('https://fonts.googleapis.com/css?family=Karla:300,300i,400,400i,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Spectral:300,300i,400,400i,600,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,400i,500,500i,700,700i,900');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,900');
+
+body, a, a:hover {cursor: url(http://www.rw-designer.com/cursor-extern.php?id=84490), auto;}
+
+body{
+background: #fff;
+}
+::-webkit-scrollbar-thumb:vertical{
+width: 0px;
+background-color: transparent;
+}
+::-webkit-scrollbar {
+width: 0px;
+background-color: transparent;
+}
+::selection {
+background: transparent;
+color: rgba(366,366,366,.5);
+}
+::-moz-selection {
+background: transparent;
+color: rgba(366,366,366,.5);
+}
+
+/*-- main --*/
+.mainimage {
+position: fixed;
+margin: auto;
+bottom: -20;
+left: 1050;
+right: 0;
+height: 760px;
+width: 600px;
+background-size: contain;
+background-repeat: no-repeat;
+background-position: bottom;
+filter: drop-shadow(-4px -2px 0px #a38157);
+background-image: url('https://i.imgur.com/ox0D780.png');
+}
+.maintitle{
+position: fixed; margin: auto;
+bottom: 100; left: 0; right: -250px;
+height: 450px; width: 100px;
+font-family: playfair display;
+line-height: 100px;
+font-size: 50px;
+font-weight: 100;
+text-transform: uppercase;
+text-align: left;
+color: #0d0808;
+}
+.maintitle1{
+position: fixed; margin: auto;
+bottom: 100; left: 0; right: -450px;
+height: 450px; width: 100px;
+font-family: playfair display;
+line-height: 100px;
+font-size: 50px;
+font-weight: 100;
+text-transform: uppercase;
+text-align: left;
+color: #0d0808;
+}
+.maintitle span{
+display: inline-block;
+height: 100px; width: 50px;
+text-align: center;
+}
+.maintitle1 span{
+display: inline-block;
+height: 100px; width: 50px;
+text-align: center;
+}
+.mainborder{
+position: fixed; margin: auto;
+bottom: 150; left: 0; right: -300px;
+height: 400px; width: 1px;
+background: linear-gradient(to bottom,#5c4639,#0d0808);
+}
+.box{
+position: fixed; margin: auto;
+bottom: 100; left: 0; right: -400px;
+height: 500px; width: 420px;
+background: #fff;
+}
+
+</style>
+<div class="box"></div>
+<div class="mainimage"></div>
+<div class="maintitle">
+<span>W</span><br><span>I</span><br>
+<span>L</span><br><span>D</span> <br>
+<br>
+</div>
+<div class="mainborder"></div>
+<div class="maintitle1">
+<span>W</span><br><span>O</span><br>
+<span>L</span><br><span>F</span> <br>
+</div>
+</div>
